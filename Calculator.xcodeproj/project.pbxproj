@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		766EF35713950DCD000B587F /* README in Resources */ = {isa = PBXBuildFile; fileRef = 766EF35613950DCD000B587F /* README */; };
 		76E935FA1394CEB9009C5B30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E935F91394CEB9009C5B30 /* UIKit.framework */; };
 		76E935FC1394CEB9009C5B30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E935FB1394CEB9009C5B30 /* Foundation.framework */; };
 		76E935FE1394CEB9009C5B30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E935FD1394CEB9009C5B30 /* CoreGraphics.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		766EF35613950DCD000B587F /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		76E935F51394CEB9009C5B30 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76E935F91394CEB9009C5B30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		76E935FB1394CEB9009C5B30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -84,6 +86,7 @@
 		76E935EA1394CEB9009C5B30 = {
 			isa = PBXGroup;
 			children = (
+				766EF35613950DCD000B587F /* README */,
 				76E935FF1394CEB9009C5B30 /* Calculator */,
 				76E9361F1394CEBA009C5B30 /* CalculatorTests */,
 				76E935F81394CEB9009C5B30 /* Frameworks */,
@@ -225,6 +228,7 @@
 				76E936041394CEB9009C5B30 /* InfoPlist.strings in Resources */,
 				76E9360D1394CEBA009C5B30 /* MainWindow.xib in Resources */,
 				76E936131394CEBA009C5B30 /* CalculatorViewController.xib in Resources */,
+				766EF35713950DCD000B587F /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
